@@ -1,16 +1,20 @@
 [build]
   publish = "."
 
+# Redirect root to main page (GET requests only)
 [[redirects]]
   from = "/"
   to = "/Html/Mainpage.html"
   status = 200
   force = false
+  conditions = {Method = ["GET"]}
 
+# Catch-all redirect for other pages (GET requests only, excluding form submissions)
 [[redirects]]
   from = "/*"
   to = "/Html/Mainpage.html"
   status = 200
+  conditions = {Method = ["GET"]}
 
 [[headers]]
   for = "/*"
