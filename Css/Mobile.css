@@ -1,0 +1,395 @@
+/* =========================================
+   MOBILE RESPONSIVE STYLES
+   ========================================= */
+
+/* Tablet and Mobile (768px and below) */
+@media (max-width: 768px) {
+
+    /* Outer Container */
+    .Outer {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    /* Header */
+    .head {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    /* Navigation */
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav a {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .Contact {
+        width: 100%;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    /* Hero Section - Main Page */
+    .mainpage {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .leftsection,
+    .rightsection {
+        height: auto;
+    }
+
+    .leftcontent {
+        margin-left: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .leftcontent h1 {
+        font-size: 24px;
+    }
+
+    .leftcontent div {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .rightsection img {
+        height: 200px;
+        width: 200px;
+        padding: 15px;
+    }
+
+    #image div img {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* About Section */
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    #image {
+        padding: 20px;
+    }
+
+    #rightabout {
+        padding: 20px;
+    }
+
+    #sections {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Skills Section */
+    .Skill {
+        padding: 20px;
+    }
+
+    #skils {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #skils div {
+        margin: 0;
+    }
+
+    .skillph1 p {
+        font-size: 24px;
+    }
+
+    /* Projects Section */
+    .projects>div {
+        padding: 20px;
+    }
+
+    .projects>div>div {
+        gap: 30px;
+    }
+
+    .projects>div>div>div {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* Education Section */
+    .education {
+        padding: 20px;
+    }
+
+    #partision {
+        flex-direction: column;
+        padding: 10px 20px;
+        gap: 20px;
+    }
+
+    #education,
+    #coursebox {
+        width: 100%;
+    }
+
+    /* Contact Section */
+    .contact-section {
+        padding: 20px;
+    }
+
+    .contact-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .contact-split {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .contact-container h1 {
+        font-size: 20px;
+    }
+}
+
+/* Small Mobile (480px and below) */
+@media (max-width: 480px) {
+
+    /* Typography */
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px !important;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    /* Outer Container */
+    .Outer {
+        margin: 5px;
+        padding: 3px;
+    }
+
+    /* Header */
+    .head {
+        padding: 10px;
+    }
+
+    .logoimg {
+        gap: 5px;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .head img {
+        height: 25px;
+        width: 25px;
+    }
+
+    /* Navigation */
+    .nav {
+        gap: 10px;
+    }
+
+    .nav a {
+        font-size: 13px;
+    }
+
+    .Contact {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    /* Hero Section */
+    .leftcontent {
+        padding: 15px;
+    }
+
+    .leftcontent h1 {
+        font-size: 20px;
+    }
+
+    .leftcontent :nth-child(3) {
+        font-size: 11px;
+    }
+
+    .rightsection img {
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #image div img {
+        height: 150px;
+        width: 150px;
+    }
+
+    /* About Section */
+    #rightabout {
+        padding: 15px;
+    }
+
+    #sections {
+        gap: 15px;
+    }
+
+    #sections div h1 {
+        font-size: 20px;
+    }
+
+    /* Skills */
+    .Skill {
+        padding: 15px;
+    }
+
+    #myskill {
+        font-size: 20px;
+    }
+
+    .skillph1 p {
+        font-size: 20px;
+    }
+
+    #skils div div {
+        padding: 15px;
+    }
+
+    #skils div div img {
+        height: 40px;
+        width: 40px;
+    }
+
+    /* Projects */
+    .projects>div {
+        padding: 15px;
+    }
+
+    .projects>div>div {
+        gap: 20px;
+    }
+
+    .projects h1 {
+        font-size: 22px;
+    }
+
+    /* Education */
+    .education {
+        padding: 15px;
+    }
+
+    #partision {
+        padding: 10px 15px;
+    }
+
+    #edco h2 {
+        font-size: 20px;
+    }
+
+    .date {
+        font-size: 12px;
+    }
+
+    .institute {
+        font-size: 14px;
+    }
+
+    .course {
+        font-size: 13px;
+    }
+
+    /* Contact */
+    .contact-section {
+        padding: 15px;
+    }
+
+    .contact-container {
+        width: 98%;
+        padding: 15px;
+    }
+
+    .contact-container h1 {
+        font-size: 18px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .submit-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    /* Download Button */
+    .download-pill {
+        padding: 3px;
+    }
+
+    .download-link {
+        font-size: 14px;
+        gap: 10px;
+        padding-left: 15px;
+    }
+
+    .icon-circle {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    /* Info Cards */
+    .info-card {
+        padding: 12px 15px;
+    }
+
+    .info-card i {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .info-card span {
+        font-size: 14px;
+    }
+}
+
+/* Very Small Screens (320px and below) */
+@media (max-width: 320px) {
+    .Outer {
+        margin: 3px;
+        padding: 2px;
+    }
+
+    .leftcontent h1 {
+        font-size: 18px;
+    }
+
+    .contact-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #skils div div {
+        padding: 10px;
+    }
+
+    .projects>div>div>div {
+        padding: 10px;
+    }
+}
