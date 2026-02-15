@@ -1,10 +1,16 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/Html/Mainpage.html"
+  status = 200
+  force = false
+
 [[redirects]]
   from = "/*"
   to = "/Html/Mainpage.html"
   status = 200
-
-[build]
-  publish = "."
 
 [[headers]]
   for = "/*"
