@@ -196,6 +196,10 @@
         padding: 30px 20px;
     }
 
+    #rightabout p {
+        color: white;
+    }
+
     #sections {
         grid-template-columns: 1fr;
         /* Stack statistics */
@@ -399,6 +403,10 @@
         border-radius: 12px;
         background: #14430c;
         box-shadow: 0 5px 15px rgba(20, 67, 12, 0.3);
+    }
+
+    footer p {
+        color: white !important;
     }
 }
 
